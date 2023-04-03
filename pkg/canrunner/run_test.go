@@ -8,11 +8,11 @@ import (
 	"time"
 
 	"github.com/golang/mock/gomock"
-	"go.einride.tech/can"
-	"go.einride.tech/can/internal/mocks/gen/mockcanrunner"
-	"go.einride.tech/can/internal/mocks/gen/mockclock"
-	"go.einride.tech/can/pkg/canrunner"
-	"go.einride.tech/can/pkg/descriptor"
+	"github.com/seanbao/can-go"
+	"github.com/seanbao/can-go/internal/mocks/gen/mockcanrunner"
+	"github.com/seanbao/can-go/internal/mocks/gen/mockclock"
+	"github.com/seanbao/can-go/pkg/canrunner"
+	"github.com/seanbao/can-go/pkg/descriptor"
 	"golang.org/x/sync/errgroup"
 	"gotest.tools/v3/assert"
 )

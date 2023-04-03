@@ -3,9 +3,9 @@ package cantext
 import (
 	"strconv"
 
-	"go.einride.tech/can"
-	"go.einride.tech/can/pkg/descriptor"
-	"go.einride.tech/can/pkg/generated"
+	"github.com/seanbao/can-go"
+	"github.com/seanbao/can-go/pkg/descriptor"
+	"github.com/seanbao/can-go/pkg/generated"
 )
 
 // preAllocatedBytesPerSignal is an estimate of how many bytes each signal needs.

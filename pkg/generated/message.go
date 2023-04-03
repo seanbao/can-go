@@ -4,8 +4,8 @@ package generated
 import (
 	"fmt"
 
-	"go.einride.tech/can"
-	"go.einride.tech/can/pkg/descriptor"
+	"github.com/seanbao/can-go"
+	"github.com/seanbao/can-go/pkg/descriptor"
 )
 
 // Message represents a code-generated CAN message.

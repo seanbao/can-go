@@ -4,8 +4,8 @@ import (
 	"math"
 	"reflect"
 
-	"go.einride.tech/can/pkg/dbc"
-	"go.einride.tech/can/pkg/dbc/analysis"
+	"github.com/seanbao/can-go/pkg/dbc"
+	"github.com/seanbao/can-go/pkg/dbc/analysis"
 )
 
 func Analyzer() *analysis.Analyzer {
